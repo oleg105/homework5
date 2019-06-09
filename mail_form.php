@@ -19,6 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     fputs($file, $email . "\n");
     fclose($file);
+    echo 'Email зарегистрирован.';
 
 
 }
