@@ -2,7 +2,7 @@
 $file = fopen('users.txt', 'r');
 
 if ($file === false) {
-    echo 'Ошибка открытия файла.';
+    die ('Ошибка открытия файла.');
 }
 echo '<table border="1" cellpadding="12" cellspacing="0">';
 
